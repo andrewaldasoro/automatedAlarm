@@ -6,4 +6,4 @@ python:
 cache: pip
 install: "pip install -r requirements.txt"
   # command tu run test
-script: python TestAutomatedAlarm.py # or py.test for Python versions 3.5 and below
+script: py.test # or py.test for Python versions 3.5 and below
