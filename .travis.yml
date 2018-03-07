@@ -4,6 +4,6 @@ python:
     - "3.6"
   # command to install dependencies
 cache: pip
-install: "pip install -r requierements.txt"
+install: "pip install -r requirements.txt"
   # command tu run test
 script: python TestAutomatedAlarm.py # or py.test for Python versions 3.5 and below
