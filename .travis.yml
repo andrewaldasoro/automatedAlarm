@@ -3,8 +3,7 @@ python:
 	- "3.5"
 	- "3.6"
   # command to install dependencies
-install: 
-  - pip install -r requierements.txt
+cache: pip
+install: "pip install -r requierements.txt"
   # command tu run test
-script: 
-  - pytest # or py.test for Python versions 3.5 and below
+script: python TestAutomatedAlarm.py # or py.test for Python versions 3.5 and below
